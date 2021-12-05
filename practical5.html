@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <a href="resume.html"></a>
+    
+</head>
+<style>
+    .top{
+        border: 2px solid black;
+        width: 30%
+    }
+    .vl{
+  border-left: 6px solid green;
+  height: 500px;
+}
+</style>
+<body style="background-image: url('registration_form_img1.png');">
+    
+    <div class="content">
+        <center>
+            <div style="background-color: aqua;">
+                <font > <br> <b> <h2> Registration form </h2> </b> </font> <br>
+            </div>
+           
+        </center>
+        
+        <center>
+       
+                    
+                        <div class="top" style="align-items: stretch; border: black; border-left: darkgreen; border-width: 10px;">
+                    <form style="background-color: rgba(89, 149, 206, 0.726); border: 100px; border-color: black;" action="resume.html" method="GET"> 
+                 
+                  
+                        <br><br>
+                        <b style="text-align: left;">Name</b>  &nbsp; <input type="text" name="uname"  placeholder="Student name" required><br><br><br>
+                        <b style="text-align: left;">Father Name</b><input type="text" name="fname"  placeholder="Student name " required><br><br><br>
+                        <b style="text-align: left;"> Address</b><input type="text" name="address"   placeholder="Enter address here"></textarea><br><br><br>
+                        <b style="text-align: left;">Gender :</b> <input type="radio" name="gender" value="Male" >Male<input type="radio" name="gender" value="Male">Female<br><br><br>
+                        <b style="text-align: left;">City</b>  
+                        <select name="city">
+                            <option value="Select" selected>Select Department</option>              
+                            <option value="city">Ghaziabad</option>
+                            <option value="city">Kanpur</option>
+                            <option value="city">Agra</option>
+                            <option value="city">Bagpath</option>
+                            <option value="city">Banaras</option>
+                            <option value="city">Etha</option>
+                            <option value="city">Delhi</option>
+                            
+                        </select><br><br><br>
+                        <b style="text-align: left;">Course</b>  
+                        <select name="course">
+                            <option value="Select" selected>Select course</option>              
+                            <option value=" Btech"> Btech </option>
+                            <option value="Mtech">mtech</option>
+                        </select><br><br><br>
+                        <b>District</b>
+                        <select name="district">
+                            <option value="Select" selected>Select district</option>                
+                            <option value="district">Ghaziabad</option>
+                            <option value="district">Kanpur</option>
+                            <option value="district">Agra</option>
+                            <option value="district">Bagpath</option>
+                            <option value="district">Banaras</option>
+                            <option value="district">Etha</option>
+                            <option value="district">Delhi</option>
+                        
+                        </select><br><br><br>
+                        <b>State</b>
+                        <select name="state">
+                            <option value="Select" selected>Select state</option>               
+                            <option value="state">UP</option>
+                            <option value="state">Punjab</option>
+                            <option value="state">Kerala</option>
+                            <option value="state">Bihar</option>
+                            <option value="state">West Bengal</option>
+                            <option value="state">J&K</option>
+                            <option value="state">Uttarakhand</option>
+                            <option value="state">Tamil Nadu</option>
+                        
+                         </select><br><br><br>
+                        <b style="text-align: left;">Pin-code</b> <input type="text" name="pcode"  placeholder="pincode" required><br><br><br>
+                        <b style="text-align: left;">email ID</b> <input type="text" name="email"  placeholder="EMAIID" required><br><br><br>
+                        <b style="text-align: left;"> Mobile no </b> <input type="text" name="mobileno"  placeholder="mobile-no" required><br><br><br>
+                        
+                        
+                        
+                        <input type="submit" name="submit" value="Register" onclick="resume.html" >
+                        <input type="reset" name="reset" value="Cancel" onclick="myFunction()" >
+                        <br><br>
+                
+                    </form>
+                    </div>
+                </center>
+    </div>
+    <script type="text/javascript">
+        function myFunction() {
+    alert("Registration Cancelled!");
+    }
+</script>
+<script type="text/javascript">
+function naviagate_to_profile() {
+    alert("Registration successfull!");
+}
+
+</script>
+
+</body>
+</html>
